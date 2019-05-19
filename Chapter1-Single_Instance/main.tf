@@ -10,6 +10,6 @@ resource "aws_instance" "Deepu-Ec2" {
   subnet_id = "subnet-0585099563414ac77"
   vpc_security_group_ids = ["sg-01cd8fa17d41d4481"]
   tags = {
-    Name = "Deepu-Ec2"  
+    Name = "Deepu-Ec2"
   }
 }
